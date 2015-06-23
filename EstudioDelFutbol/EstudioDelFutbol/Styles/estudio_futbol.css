@@ -1,0 +1,292 @@
+/*!
+ * by Dodwing / info@dodwing.com.ar
+ */
+
+body , html {height:100%; font-family: 'Lato', sans-serif;}
+body {background-color:#00522c;}
+h1 , h2 , h3 , h4 , h5 , h6 {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Customizado Bootstrap  */
+.navbar-default {
+  background-color: #FFFFFF;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #2ba361;
+}
+.navbar .container .navbar-header img {
+  margin: 5px 20px 0 5px;
+}
+.navbar .container .navbar-header .navbar-brand {
+  font-weight:900;
+  color:#000;
+}
+.btn-default {
+color: #008C4E;
+}
+.btn-success {
+background-color: #00b377;
+}
+.btn-success:hover {
+background-color: #008c4e;
+}
+.bg_foto_home {
+	background-color:#008C4E;
+	width: 100%;
+	min-height: 90%;
+	background-attachment: scroll;
+	background-image: url(../img/bg_edf_home.png);
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;	
+}
+section .conenido_home {
+	text-align:center;
+	color:#FFF;
+}
+section .conenido_home h1 {
+	 font-weight:900;
+	 margin-top: 300px;
+	 font-size:53px;
+	 line-height:48px;
+}
+section .conenido_home h2 {
+	 font-weight:400;
+	 font-size:19px;
+}
+section .conenido_home h3 {
+	 font-weight:400;
+	 font-size:23px;
+	 margin-top: 2%;
+}
+section .conenido_home h4 {
+	 font-weight:400;
+	 font-size:13px;
+	 margin: 5px 0 20px 0;
+}
+section .conenido_home .cont_acceso {
+	padding: 20px 0;
+	border-top: 1px solid #00b377;
+	border-bottom: 1px solid #00b377;
+	margin-top: 3%;
+}
+section .conenido_home .btn-default {
+	padding: 6px 40px;
+}
+footer {
+	background-color:#00522c;
+	color:#2ba361;
+}
+footer .contenedor_s_link {
+	width: 176px;
+	height:60px;
+	position:relative;
+	margin:auto;
+}
+footer .contenedor_s_link .social_link {
+	width: 28px;
+	height: 28px;
+	background-color:#2ba361;
+	color: #00522c;
+	-webkit-border-radius: 90px;
+	-moz-border-radius: 90px;
+	border-radius: 90px;
+	padding-top: 4px;
+	text-align:center;
+}
+footer .contenedor_s_link .social_link:hover {
+	background-color:#fff;
+}
+footer .contenedor_s_link .facebook {
+	position: absolute;
+	top: 15px;
+	left: 72px;
+}
+footer .contenedor_s_link .twitter {
+	position: absolute;
+	top: 15px;
+	left: 109px;
+}
+
+footer .contenedor_s_link .youtube {
+	position: absolute;
+	top: 15px;
+	left: 146px;
+}
+footer .contenedor_s_link h5 {
+	position: absolute;
+	top: 20px;
+	left: 0px;
+}
+footer .col-md-10 {
+	padding-top: 14px;
+}
+
+section .login {
+	margin-top:75px;
+}
+section .login .well {
+	background-color:#FFF;
+}
+section .login .well h3 {
+	text-align:center;
+	margin:10px 0 15px 0;
+	font-weight:900;
+	font-size:22px;
+}
+section .login .well h5 {
+	margin:5px 0 2px 0;
+	color:#CCC;
+}
+section .login .well .btn-success {
+	margin:15px 0;
+}
+
+section .login .well .tex_info {
+	text-align:center;
+	border-top: 1px solid #ECECEC;
+	padding: 15px 10px;
+	margin-top: 8px;
+
+}
+section .login .well p {
+	margin-top: 5px;
+	line-height: 14px;
+	font-size:12px;
+	color:#999;
+}
+.header_reproductor {
+	background-color:#000000;
+    width : 100%;
+    /*min-height: 90%;*/
+}
+.header_reproductor .menu {
+	padding-top: 17px;
+	padding-bottom: 5px;
+	text-align:center;
+	/*padding-right:0px;*/
+}
+
+.header_reproductor .logo_club {
+	color:#FFF;
+}
+.header_reproductor .logo_club h4 {
+	position: absolute;
+	top: 14px;
+	left: 84px;
+	font-weight:900;
+}
+.header_reproductor .logo_club h5 {
+	position: absolute;
+	top: 37px;
+	left: 84px;
+	color:#999;	
+}
+.header_reproductor .logo_club img {
+	margin:5px 0;
+}
+
+.contenido_seccion {
+	background-color:#000;
+	margin-top: 52px;
+}
+
+.contenido_seccion .cont_central  {
+	padding: 30px 15px 20px 15px ;
+}
+.contenido_seccion .cont_central .pievideo_right {
+	text-align:right;
+
+}
+.contenido_seccion .cont_central h6 {
+	color:#00a55d;
+	font-size:12px;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+.contenido_seccion .cont_central h5 {
+	color:#00a55d;
+	font-size:14px;
+	margin-top: 10px;
+}
+.contenido_seccion .cont_central h4 {
+	color:#fff;
+	font-size:17px;
+	margin-top: 10px;
+}
+section .contacto {
+	text-align:center;
+	padding: 20px 15%;
+}
+
+
+
+@media (max-width: 992px) {
+	footer .col-md-10 {
+		text-align:center;
+	}
+	
+	.contenido_seccion .cont_central .pievideo_left , .contenido_seccion .cont_central .pievideo_right {
+	text-align:center;
+	}
+}
+
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+/*/#video 
+{
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    -moz-transition: all 1s ease-in-out; 
+    -webkit-transition: all 1s ease-in-out; 
+    -o-transition: all 1s ease-in-out; 
+    -ms-transition: all 1s ease-in-out; 
+    transition: all 1s ease-in-out; 
+}*/
+
+
+@media (max-width: 1200px) {
+	.btn {
+		font-size:11px;
+	}
+	h5
+	{
+	    font-size: 12px;
+	}
+}
+
+
+@media (max-width: 1000px) {
+	.navbar-collapse {
+		font-size:12px;
+	}
+}

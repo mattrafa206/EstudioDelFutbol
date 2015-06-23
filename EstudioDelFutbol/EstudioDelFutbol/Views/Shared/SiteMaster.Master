@@ -1,0 +1,179 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="MainHeadear" runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+    <script type="text/javascript" src="<%= Url.Content("~/Scripts/jquery-1.11.1.js") %>"></script>
+    <script type="text/javascript" src="<%= Url.Content("~/Scripts/jquery-ui.js") %>"></script>
+    <script type="text/javascript" src="<%= Url.Content("~/Scripts/jquery.printarea.js") %>"></script>
+    <!-- Bootstrap Core-->
+    <link href="<%= Url.Content("~/Styles/bootstrap.min.css") %>" rel="stylesheet" />
+    <script type="text/javascript" src="<%= Url.Content("~/Scripts/bootstrap.min.js") %>"></script>   
+
+    <!-- Bootstrap Gallery -->
+    <link href="<%= Url.Content("~/Styles/blueimp-gallery.min.css") %>" rel="stylesheet" />
+ <%--   <link href="<%= Url.Content("~/Styles/bootstrap-image-gallery.css") %>" rel="stylesheet" />--%>
+
+    <script type="text/javascript" src="<%= Url.Content("~/Scripts/jquery.blueimp-gallery.min.js") %>"></script>
+<%--    <script type="text/javascript" src="<%= Url.Content("~/Scripts/bootstrap-image-gallery.js") %>"></script>--%>
+
+    <link href="<%= Url.Content("~/Styles/estudio_futbol.css") %>" rel="stylesheet" />
+    <link href="<%= Url.Content("~/font-awesome/css/font-awesome.min.css") %>" rel="stylesheet"
+        type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet"
+        type="text/css" />
+    <link rel="icon" type="image/png" href="<%= Url.Content("~/img/favicon.png") %>" />
+    <script>
+
+        function navigatorMenu(page) {
+            $('#mnuIndex').removeClass('active');
+            $('#mnuAnalysis').removeClass('active');
+            $('#mnuAboutUs').removeClass('active');
+            $('#mnuContact').removeClass('active');
+            $('#mnu' + page).addClass('active');
+        }
+
+        function ShowErrorMsg(msg) {
+            document.getElementById("errorText").innerHTML = msg;
+            $('#errorModal').modal('show');
+        }
+
+        function GetNavigatorVersion() {
+            var device = navigator.userAgent;
+            if (!(device.match(/Iphone/i) || device.match(/Ipod/i) || device.match(/Android/i) || device.match(/J2ME/i) || device.match(/BlackBerry/i) || device.match(/iPhone|iPad|iPod/i) || device.match(/Opera Mini/i) || device.match(/IEMobile/i) || device.match(/Mobile/i) || device.match(/Windows Phone/i) || device.match(/windows mobile/i) || device.match(/windows ce/i) || device.match(/webOS/i) || device.match(/palm/i) || device.match(/bada/i) || device.match(/series60/i) || device.match(/nokia/i) || device.match(/symbian/i) || device.match(/HTC/i))) {
+                if (device.indexOf('Firefox') != -1 && parseFloat(navigator.userAgent.substring(navigator.userAgent.indexOf('Firefox') + 8)) >= 15) {//Firefox
+                    //Allow
+                } else if (device.indexOf('Chrome') != -1 && parseFloat(navigator.userAgent.substring(navigator.userAgent.indexOf('Chrome') + 7).split(' ')[0]) >= 25) {//Chrome
+                    //Allow
+                } else if (device.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Version') != -1 && parseFloat(navigator.userAgent.substring(navigator.userAgent.indexOf('Version') + 8).split(' ')[0]) >= 5) {//Safari
+                    //Allow
+                } else if (device.indexOf('MSIE') != -1 && parseFloat(navigator.userAgent.substring(navigator.userAgent.indexOf('MSIE') + 5)) >= 9) {
+                    //Allow
+                }
+                else {
+                    $('#invalidModal').modal('show');
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" href="#">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span><span
+                        class="icon-bar"></span><span class="icon-bar"></span>
+                </button>
+                <a class="visible-xs visible-md visible-sm navbar-brand" onclick="window.location.href = '<%= @Url.Action("Index", "Pages")%>';" style="cursor:pointer;">Estudio del Fútbol</a> <a class="hidden-xs hidden-md hidden-sm"
+                    onclick="window.location.href = '<%= @Url.Action("Index", "Pages")%>';" style="cursor:pointer;">
+                    <img src="<%= Url.Content("~/img/ic_logo_navbar.png") %>" width="250" height="40"
+                        alt="Estudio del Fútbol"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li id="mnuIndex"><a style="cursor: pointer" onclick="window.location.href = '<%= @Url.Action("Index", "Pages")%>';">
+                        INICIO</a> </li>
+                    <li id="mnuAnalysis"><a style="cursor: pointer" onclick="window.location.href = '<%= @Url.Action("Analysis", "Pages")%>'">
+                        ANÁLISIS</a> </li>
+                    <li id="mnuAboutUs"><a style="cursor: pointer" onclick="window.location.href = '<%= @Url.Action("AboutUs", "Pages")%>'">
+                        SOBRE NOSOTROS</a> </li>
+                    <li id="mnuContact"><a style="cursor: pointer" onclick="window.location.href = '<%= @Url.Action("Contact", "Pages")%>'">
+                        CONTACTO</a> </li>
+                </ul>
+                <% if (!HttpContext.Current.User.Identity.IsAuthenticated)
+                   { %>
+                <button type="button" class="btn btn-success navbar-btn navbar-right" onclick="window.location.href = '<%= @Url.Action("Login", "Pages")%>';">
+                    INGRESAR</button>
+                <%}
+                   else
+                   {%>
+                <ul class="nav navbar-nav" style="float: right;">
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" id="menu_font" data-toggle="dropdown">
+                        <i class="icon-user icon-white"></i>
+                        <img style="height:18px;"  src='<%: EstudioDelFutbol.CommonWeb.Utils.GetUserInfoFromTicket(HttpContext.Current.User.Identity).Picture %>'>
+                        <%: EstudioDelFutbol.CommonWeb.Utils.GetUserInfoFromTicket(HttpContext.Current.User.Identity).Nombre %>
+                        <b class="caret"></b></a>
+                        <ul class="dropdown-menu pull-right">
+                            <li><a style="cursor: pointer;" onclick="window.location.href = '<%= @Url.Action("Logout", "Pages")%>'">
+                                <i class='icon-remove'></i>Salir</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+                <%}%>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <h5>
+                        <img src="<%= Url.Content("~/img/ic_logo_footer.png") %>" width="27" height="27"
+                            style="margin-right: 4px;"><strong>ESTUDIO DEL FUTBOL</strong> / Federico Anastasi
+                        / ©2015 / Todos los derechos reservados</h5>
+                </div>
+                <div class="col-md-2">
+                    <div class="contenedor_s_link">
+                        <h5>
+                            Síguenos:</h5>
+                        <a href="#">
+                            <div class="social_link facebook">
+                                <i style="  margin-top: 3px;" class="fa fa-facebook"></i>
+                            </div>
+                        </a><a href="#">
+                            <div class="social_link twitter">
+                                <i style="  margin-top: 3px;" class="fa fa-twitter"></i>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social_link youtube">
+                                <i style="margin-top: 3px;" class="fa fa-youtube"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </footer>
+        <!-- Error Modal -->
+    <div class="modal fade bs-example-modal-sm" id="errorModal" tabindex="-1" role="dialog"
+        aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content" style="max-width: 500px;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">
+                        Estudio Del Futbol</h4>
+                </div>
+                <div class="modal-body text-danger" id="errorText">
+                  
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

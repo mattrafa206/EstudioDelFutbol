@@ -1,0 +1,4 @@
+E:\EstudioDelFutbol\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+E:\EstudioDelFutbol\Entity\obj\Debug\Entity.Resources.Mails.resources
+E:\EstudioDelFutbol\Entity\obj\Debug\Entity.Resources.Messages.resources
+E:\EstudioDelFutbol\Entity\obj\Debug\Entity.csproj.GenerateResource.Cache

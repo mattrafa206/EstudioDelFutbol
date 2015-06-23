@@ -1,0 +1,157 @@
+**********************************************************
+* Session del log iniciada  (04-04-2015 a las 14:22:50)  *
+**********************************************************
+**********************************************************
+* Session del log iniciada  (04-04-2015 a las 16:32:58)  *
+**********************************************************
+**********************************************************
+* Session del log iniciada  (04-04-2015 a las 22:00:59)  *
+**********************************************************
+TH: 14 - ::1 - 04/04/2015 22:01:37 - MSG: (No se puede cargar el archivo o ensamblado 'EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040):    en DataEntity.Clubs.Login(String userName, String userPassword)
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 54
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 109
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)
+TH: 11 - ::1 - 04/04/2015 22:02:05 - MSG: (No se puede cargar el archivo o ensamblado 'EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040):    en DataEntity.Clubs.Login(String userName, String userPassword)
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 54
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 109
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)
+TH: 16 - ::1 - 04/04/2015 22:02:31 - MSG: (No se puede cargar el archivo o ensamblado 'EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040):    en DataEntity.Clubs.Login(String userName, String userPassword)
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 54
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 109
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)
+**********************************************************
+* Session del log iniciada  (04-04-2015 a las 22:02:45)  *
+**********************************************************
+TH: 17 - ::1 - 04/04/2015 22:03:07 - MSG: (No se puede cargar el archivo o ensamblado 'EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' ni una de sus dependencias. La definición del manifiesto del ensamblado no coincide con la referencia al ensamblado. (Excepción de HRESULT: 0x80131040):    en DataEntity.Clubs.Login(String userName, String userPassword)
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 54
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 109
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)
+**********************************************************
+* Session del log iniciada  (05-04-2015 a las 16:49:10)  *
+**********************************************************
+TH: 13 - ::1 - 05/04/2015 16:49:19 - MSG: Obteniendo DataTable...
+TH: 13 - ::1 - 05/04/2015 16:49:19 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 13 - ::1 - 05/04/2015 16:49:19 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 13 - ::1 - 05/04/2015 16:49:19 - MSG: El DataTable se ha obtenido satisfactoriamente...
+TH: 46 - ::1 - 05/04/2015 16:57:54 - MSG: Obteniendo DataTable...
+TH: 46 - ::1 - 05/04/2015 16:57:54 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 46 - ::1 - 05/04/2015 16:57:54 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 46 - ::1 - 05/04/2015 16:57:54 - MSG: El DataTable se ha obtenido satisfactoriamente...
+TH: 46 - ::1 - 05/04/2015 16:59:27 - MSG: (Los datos ingresados no son correctos:    en EstudioDelFutbol.Logic.User.Login(String userName, String userPassword, Object& oResult) en e:\EstudioDelFutbol\Logic\User.cs:línea 78
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 48
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 105
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)
+**********************************************************
+* Session del log iniciada  (05-04-2015 a las 23:20:00)  *
+**********************************************************
+**********************************************************
+* Session del log iniciada  (27-04-2015 a las 19:16:57)  *
+**********************************************************
+TH: 14 - ::1 - 27/04/2015 19:19:19 - MSG: Obteniendo DataTable...
+TH: 14 - ::1 - 27/04/2015 19:19:19 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 14 - ::1 - 27/04/2015 19:19:19 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 14 - ::1 - 27/04/2015 19:19:20 - MSG: El DataTable se ha obtenido satisfactoriamente...
+TH: 17 - ::1 - 27/04/2015 19:21:32 - MSG: Obteniendo DataTable...
+TH: 17 - ::1 - 27/04/2015 19:21:32 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 17 - ::1 - 27/04/2015 19:21:32 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 17 - ::1 - 27/04/2015 19:21:32 - MSG: El DataTable se ha obtenido satisfactoriamente...
+**********************************************************
+* Session del log iniciada  (27-04-2015 a las 19:22:15)  *
+**********************************************************
+**********************************************************
+* Session del log iniciada  (27-04-2015 a las 19:23:18)  *
+**********************************************************
+**********************************************************
+* Session del log iniciada  (27-04-2015 a las 19:24:06)  *
+**********************************************************
+TH: 17 - ::1 - 27/04/2015 19:24:17 - MSG: Obteniendo DataTable...
+TH: 17 - ::1 - 27/04/2015 19:24:17 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 17 - ::1 - 27/04/2015 19:24:17 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 17 - ::1 - 27/04/2015 19:24:17 - MSG: El DataTable se ha obtenido satisfactoriamente...
+**********************************************************
+* Session del log iniciada  (27-04-2015 a las 20:02:04)  *
+**********************************************************
+**********************************************************
+* Session del log iniciada  (27-04-2015 a las 20:05:05)  *
+**********************************************************
+**********************************************************
+* Session del log iniciada  (27-04-2015 a las 20:08:22)  *
+**********************************************************
+TH: 73 - ::1 - 27/04/2015 20:10:47 - MSG: Obteniendo DataTable...
+TH: 73 - ::1 - 27/04/2015 20:10:47 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 73 - ::1 - 27/04/2015 20:10:47 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 73 - ::1 - 27/04/2015 20:10:47 - MSG: El DataTable se ha obtenido satisfactoriamente...
+TH: 39 - ::1 - 27/04/2015 20:23:41 - MSG: (El Teléfono no puede ser vacío o contener mas de 30 caracteres:    en EstudioDelFutbol.Controllers.PagesController.SendMailContact(String fullName, String email, String subject, String phone, String clubName, String body, String title) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 295)
+**********************************************************
+* Session del log iniciada  (27-04-2015 a las 20:24:12)  *
+**********************************************************
+**********************************************************
+* Session del log iniciada  (07-05-2015 a las 21:00:40)  *
+**********************************************************
+TH: 8 - ::1 - 07/05/2015 21:00:46 - MSG: Obteniendo DataTable...
+TH: 8 - ::1 - 07/05/2015 21:00:46 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 8 - ::1 - 07/05/2015 21:00:46 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 8 - ::1 - 07/05/2015 21:00:46 - MSG: El DataTable se ha obtenido satisfactoriamente...
+**********************************************************
+* Session del log iniciada  (05-06-2015 a las 18:56:13)  *
+**********************************************************
+TH: 14 - ::1 - 05/06/2015 18:57:54 - MSG: Obteniendo DataTable...
+TH: 14 - ::1 - 05/06/2015 18:57:54 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 14 - ::1 - 05/06/2015 18:57:54 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 14 - ::1 - 05/06/2015 18:57:55 - MSG: El DataTable se ha obtenido satisfactoriamente...
+TH: 14 - ::1 - 05/06/2015 18:59:09 - MSG: (Los datos ingresados no son correctos:    en EstudioDelFutbol.Logic.User.Login(String userName, String userPassword, Object& oResult) en e:\EstudioDelFutbol\Logic\User.cs:línea 78
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 48
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 105
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)
+TH: 17 - ::1 - 05/06/2015 18:59:11 - MSG: Obteniendo DataTable...
+TH: 17 - ::1 - 05/06/2015 18:59:11 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 17 - ::1 - 05/06/2015 18:59:11 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 17 - ::1 - 05/06/2015 18:59:11 - MSG: El DataTable se ha obtenido satisfactoriamente...
+TH: 17 - ::1 - 05/06/2015 18:59:11 - MSG: (No se puede encontrar una parte de la ruta de acceso 'C:\inetpub\wwwroot\EstudioDelFutbolShared\nob_1\Rival'.:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   en System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   en System.IO.Directory.GetFiles(String path)
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 62
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 105
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)
+TH: 17 - ::1 - 05/06/2015 18:59:19 - MSG: Obteniendo DataTable...
+TH: 17 - ::1 - 05/06/2015 18:59:19 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 17 - ::1 - 05/06/2015 18:59:19 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 17 - ::1 - 05/06/2015 18:59:19 - MSG: El DataTable se ha obtenido satisfactoriamente...
+TH: 17 - ::1 - 05/06/2015 19:00:32 - MSG: (Los datos ingresados no son correctos:    en EstudioDelFutbol.Logic.User.Login(String userName, String userPassword, Object& oResult) en e:\EstudioDelFutbol\Logic\User.cs:línea 78
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 48
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 105
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)
+TH: 28 - ::1 - 05/06/2015 19:00:36 - MSG: Obteniendo DataTable...
+TH: 28 - ::1 - 05/06/2015 19:00:36 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 28 - ::1 - 05/06/2015 19:00:36 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 28 - ::1 - 05/06/2015 19:00:36 - MSG: El DataTable se ha obtenido satisfactoriamente...
+TH: 28 - ::1 - 05/06/2015 19:00:36 - MSG: (No se puede encontrar una parte de la ruta de acceso 'C:\inetpub\wwwroot\EstudioDelFutbolShared\nob_1\Rival'.:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   en System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   en System.IO.Directory.GetFiles(String path)
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 62
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 105
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)
+TH: 28 - ::1 - 05/06/2015 19:00:46 - MSG: Obteniendo DataTable...
+TH: 28 - ::1 - 05/06/2015 19:00:46 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 28 - ::1 - 05/06/2015 19:00:46 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 28 - ::1 - 05/06/2015 19:00:46 - MSG: El DataTable se ha obtenido satisfactoriamente...
+TH: 28 - ::1 - 05/06/2015 19:03:40 - MSG: (Los datos ingresados no son correctos:    en EstudioDelFutbol.Logic.User.Login(String userName, String userPassword, Object& oResult) en e:\EstudioDelFutbol\Logic\User.cs:línea 78
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 48
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 105
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)
+**********************************************************
+* Session del log iniciada  (05-06-2015 a las 19:04:31)  *
+**********************************************************
+TH: 39 - ::1 - 05/06/2015 19:04:39 - MSG: Obteniendo DataTable...
+TH: 39 - ::1 - 05/06/2015 19:04:39 - MSG: QueryString -> SELECT * FROM [Club] WITH(NOLOCK) WHERE UserName = @UserName AND Club.IsActive = 1
+TH: 39 - ::1 - 05/06/2015 19:04:39 - MSG: ParamsValues -> @UserName = 'nob'
+TH: 39 - ::1 - 05/06/2015 19:04:39 - MSG: El DataTable se ha obtenido satisfactoriamente...
+TH: 39 - ::1 - 05/06/2015 19:05:22 - MSG: (No se puede encontrar una parte de la ruta de acceso 'C:\inetpub\wwwroot\EstudioDelFutbolShared\nob_1\Rival'.:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   en System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   en System.IO.Directory.GetFiles(String path)
+   en EstudioDelFutbol.CommonWeb.Security.ValidateUser(String userName, String password, List`1& lstRoles, UserInfo& userInfo, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 62
+   en EstudioDelFutbol.CommonWeb.Security.Authenticate(String userName, String passsword, BizServer bizServer) en e:\EstudioDelFutbol\EstudioDelFutbol\Common\Security.cs:línea 105
+   en EstudioDelFutbol.Controllers.PagesController.Login(LoginModel model) en e:\EstudioDelFutbol\EstudioDelFutbol\Controllers\PagesController.cs:línea 73)

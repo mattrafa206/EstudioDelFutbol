@@ -1,0 +1,17 @@
+E:\EstudioDelFutbol\Entity\obj\Debug\DataEntity.csprojResolveAssemblyReference.cache
+E:\EstudioDelFutbol\Entity\obj\Debug\DataEntity.Resources.Mails.resources
+E:\EstudioDelFutbol\Entity\obj\Debug\DataEntity.Resources.Messages.resources
+E:\EstudioDelFutbol\Entity\obj\Debug\DataEntity.csproj.GenerateResource.Cache
+E:\EstudioDelFutbol\Entity\bin\Debug\DataEntity.dll.config
+E:\EstudioDelFutbol\Entity\bin\Debug\DataEntity.dll
+E:\EstudioDelFutbol\Entity\bin\Debug\DataEntity.pdb
+E:\EstudioDelFutbol\Entity\bin\Debug\Common.dll
+E:\EstudioDelFutbol\Entity\bin\Debug\EntityFramework.dll
+E:\EstudioDelFutbol\Entity\bin\Debug\EntityFramework.SqlServer.dll
+E:\EstudioDelFutbol\Entity\bin\Debug\Logger.dll
+E:\EstudioDelFutbol\Entity\bin\Debug\Common.pdb
+E:\EstudioDelFutbol\Entity\bin\Debug\EntityFramework.xml
+E:\EstudioDelFutbol\Entity\bin\Debug\EntityFramework.SqlServer.xml
+E:\EstudioDelFutbol\Entity\bin\Debug\Logger.pdb
+E:\EstudioDelFutbol\Entity\obj\Debug\DataEntity.dll
+E:\EstudioDelFutbol\Entity\obj\Debug\DataEntity.pdb

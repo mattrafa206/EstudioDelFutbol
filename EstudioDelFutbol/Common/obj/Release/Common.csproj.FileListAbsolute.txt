@@ -1,0 +1,7 @@
+E:\EstudioDelFutbol\Common\bin\Release\Common.dll
+E:\EstudioDelFutbol\Common\bin\Release\Common.pdb
+E:\EstudioDelFutbol\Common\bin\Release\Logger.dll
+E:\EstudioDelFutbol\Common\bin\Release\Logger.pdb
+E:\EstudioDelFutbol\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+E:\EstudioDelFutbol\Common\obj\Release\Common.dll
+E:\EstudioDelFutbol\Common\obj\Release\Common.pdb

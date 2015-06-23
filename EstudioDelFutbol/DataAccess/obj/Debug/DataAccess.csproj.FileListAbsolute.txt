@@ -1,0 +1,9 @@
+E:\EstudioDelFutbol\DataAccess\bin\Debug\DataAccess.dll
+E:\EstudioDelFutbol\DataAccess\bin\Debug\DataAccess.pdb
+E:\EstudioDelFutbol\DataAccess\bin\Debug\Common.dll
+E:\EstudioDelFutbol\DataAccess\bin\Debug\Logger.dll
+E:\EstudioDelFutbol\DataAccess\bin\Debug\Common.pdb
+E:\EstudioDelFutbol\DataAccess\bin\Debug\Logger.pdb
+E:\EstudioDelFutbol\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\EstudioDelFutbol\DataAccess\obj\Debug\DataAccess.dll
+E:\EstudioDelFutbol\DataAccess\obj\Debug\DataAccess.pdb

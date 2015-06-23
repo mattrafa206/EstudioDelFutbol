@@ -1,0 +1,87 @@
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\obj\Debug\EstudioDelFutbol.csprojResolveAssemblyReference.cache
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\EstudioDelFutbol.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\EstudioDelFutbol.pdb
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\Common.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\EntityFramework.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\Logger.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\Logic.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\Microsoft.Web.Infrastructure.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Helpers.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Mvc.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Providers.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Razor.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.Deployment.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.Razor.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\DataAccess.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\Common.pdb
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\Logger.pdb
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\Logic.pdb
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\EntityFramework.xml
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Helpers.xml
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Mvc.xml
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Razor.xml
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.xml
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.Deployment.xml
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.Razor.xml
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\bin\DataAccess.pdb
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\obj\Debug\EstudioDelFutbol.dll
+c:\users\martinaybar\documents\visual studio 2012\Projects\EstudioDelFutbol\EstudioDelFutbol\obj\Debug\EstudioDelFutbol.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\EstudioDelFutbol.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\EstudioDelFutbol.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\Common.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\EntityFramework.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\Logger.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\Logic.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\Microsoft.Web.Infrastructure.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.Helpers.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.Mvc.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.Providers.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.Razor.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.WebPages.Deployment.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.WebPages.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.WebPages.Razor.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\DataAccess.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\Common.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\Logger.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\Logic.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\EntityFramework.xml
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.Helpers.xml
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.Mvc.xml
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.Razor.xml
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.WebPages.xml
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.WebPages.Deployment.xml
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\System.Web.WebPages.Razor.xml
+E:\EstudioDelFutbol\EstudioDelFutbol1\bin\DataAccess.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol1\obj\Debug\EstudioDelFutbol.csprojResolveAssemblyReference.cache
+E:\EstudioDelFutbol\EstudioDelFutbol1\obj\Debug\EstudioDelFutbol.dll
+E:\EstudioDelFutbol\EstudioDelFutbol1\obj\Debug\EstudioDelFutbol.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\EstudioDelFutbol.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\EstudioDelFutbol.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\Common.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\EntityFramework.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\Logger.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\Logic.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\Microsoft.Web.Infrastructure.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Helpers.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Mvc.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Providers.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Razor.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.Deployment.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.Razor.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\DataAccess.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\Common.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\Logger.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\Logic.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\EntityFramework.xml
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Helpers.xml
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Mvc.xml
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.Razor.xml
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.xml
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.Deployment.xml
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\System.Web.WebPages.Razor.xml
+E:\EstudioDelFutbol\EstudioDelFutbol\bin\DataAccess.pdb
+E:\EstudioDelFutbol\EstudioDelFutbol\obj\Debug\EstudioDelFutbol.csprojResolveAssemblyReference.cache
+E:\EstudioDelFutbol\EstudioDelFutbol\obj\Debug\EstudioDelFutbol.dll
+E:\EstudioDelFutbol\EstudioDelFutbol\obj\Debug\EstudioDelFutbol.pdb

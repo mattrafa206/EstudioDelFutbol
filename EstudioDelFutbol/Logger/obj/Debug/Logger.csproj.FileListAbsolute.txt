@@ -1,0 +1,5 @@
+E:\EstudioDelFutbol\Logger\bin\Debug\Logger.dll
+E:\EstudioDelFutbol\Logger\bin\Debug\Logger.pdb
+E:\EstudioDelFutbol\Logger\obj\Debug\Logger.dll
+E:\EstudioDelFutbol\Logger\obj\Debug\Logger.pdb
+E:\EstudioDelFutbol\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache

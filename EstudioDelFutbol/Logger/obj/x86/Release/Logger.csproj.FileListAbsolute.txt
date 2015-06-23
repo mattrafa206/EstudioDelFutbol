@@ -1,0 +1,5 @@
+C:\Proyectos\TaxiGuardian\TaxiGuardian\Logger\bin\Debug\Logger.dll
+C:\Proyectos\TaxiGuardian\TaxiGuardian\Logger\bin\Debug\Logger.pdb
+C:\Proyectos\TaxiGuardian\TaxiGuardian\Logger\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Proyectos\TaxiGuardian\TaxiGuardian\Logger\obj\x86\Release\Logger.dll
+C:\Proyectos\TaxiGuardian\TaxiGuardian\Logger\obj\x86\Release\Logger.pdb
